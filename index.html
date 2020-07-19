@@ -1,0 +1,52 @@
+<head>
+    <title>Backtracking</title>
+    <body>
+       <h1>Backtracking</h1> 
+       <h5>Copyright &copy; by David Matuszek</h5>
+       <p><strong>Backtracking is a form of recursion.</strong></p>
+       <p><bold>The usual scenario is that you are faced with a number of options, </bold>and you must choose one of these. 
+           <br>After you make your choice you will get a new set of options; just what set of options you get depends on what choice <em>you made</em> . This procedure is repeated over and over until you reach a final state. If you made a good sequence of choices, your final state is a <i>goal</i> state; if you didn't, it isn't.</p>
+    <pre>
+        int main(){
+            printf("Hello World")
+        }
+    <pre/>
+    <hr size="6">
+    <center><img src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif" alt="image" height="300px" width="300px"></center>
+    <ol>
+        <li>Starting at Root, your options are A and B. You choose A.</li>
+        <li>At A, your options are C and D. You choose C.</li> 
+        <li> C is bad. Go back to A.</li>
+    </ol>
+    <hr>
+    <ul>
+    <li>At A, you have already tried C, and it failed. Try D.</li> 
+    <li>D is bad. Go back to A.</li>
+    <li>At A, you have no options left to try. Go back to Root.</li>
+    </ul>
+    <form action="index.html" >
+        <label>Name</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email">
+        <label for="check">Checkbox</label>
+        <input type="checkbox"
+        <label>Submit</label>
+        <input type="submit">
+    </form>
+<hr>
+    <table>
+        <tr>
+            <td>Method 1:</td>
+            <td>60 ms.</td>
+            <td>60530 ms. (1 minute)</td>
+        </tr>
+        <tr>
+            <td>Method 2:</td>
+            <td>0ms.</td>
+            <td>0ms.</td>
+            <td>0ms.</td>
+        </tr>
+    </table>
+    </body>
+</head>
