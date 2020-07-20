@@ -1,5 +1,7 @@
 <head>
     <title>Backtracking</title>
+ <link rel="stylesheet" href="style.css">
+</head>
     <body>
        <h1>Backtracking</h1> 
        <h5>Copyright &copy; by David Matuszek</h5>
@@ -10,19 +12,19 @@
         int main(){
             printf("Hello World")
         }
-    <pre/>
+    </pre>
     <hr size="6">
     <center><img src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif" alt="image" height="300px" width="300px"></center>
     <ol>
-        <li>Starting at Root, your options are A and B. You choose A.</li>
-        <li>At A, your options are C and D. You choose C.</li> 
-        <li> C is bad. Go back to A.</li>
+        <li class="listsytle">Starting at Root, your options are A and B. You choose A.</li>
+        <li class="listsytle">At A, your options are C and D. You choose C.</li> 
+        <li class="listsytle"> C is bad. Go back to A.</li>
     </ol>
     <hr>
     <ul>
-    <li>At A, you have already tried C, and it failed. Try D.</li> 
-    <li>D is bad. Go back to A.</li>
-    <li>At A, you have no options left to try. Go back to Root.</li>
+    <li class="listsytle">At A, you have already tried C, and it failed. Try D.</li> 
+    <li class="listsytle">D is bad. Go back to A.</li>
+    <li class="listsytle">At A, you have no options left to try. Go back to Root.</li>
     </ul>
     <form action="index.html" >
         <label>Name</label>
@@ -35,11 +37,12 @@
         <input type="submit">
     </form>
 <hr>
-    <table>
+    <table border="1">
         <tr>
             <td>Method 1:</td>
             <td>60 ms.</td>
             <td>60530 ms. (1 minute)</td>
+            <td>0ms.</td>
         </tr>
         <tr>
             <td>Method 2:</td>
@@ -48,5 +51,11 @@
             <td>0ms.</td>
         </tr>
     </table>
+    <iframe src="https://www.prepbytes.com" scroll="auto" frameborder="0" width="100%" height="300px"></iframe>
+
+    <video controls width="250">
+        <source src="My Video.mp4"
+        type="video/mp4">
+    </video>
+
     </body>
-</head>
